@@ -53,11 +53,13 @@ public class UserAdapterDiazIvan extends RecyclerView.Adapter<UserAdapterDiazIva
 
         // Encargado de trabajar con el item.xml y sus componentes
         //Picasso.with(context).load(modelPhotoList.get(position).getFoto()).into((holder.foto));
-
-
-
-
-    }
+        holder.textViewName.setText( modelUserList.get(position).getName());
+        holder.textViewUsername.setText( modelUserList.get(position).getUsername());
+        holder.textViewEmail.setText( modelUserList.get(position).getEmail());
+        holder.textViewPhone.setText( modelUserList.get(position).getPhone());
+        holder.textViewCompany.setText( modelUserList.get(position).getCompany());
+        holder.textViewAddress.setText( modelUserList.get(position).getAddress());
+   }
 
     @Override
     public int getItemCount() {
@@ -65,14 +67,26 @@ public class UserAdapterDiazIvan extends RecyclerView.Adapter<UserAdapterDiazIva
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+
         ImageView foto;
+        TextView textViewName;
+        TextView textViewUsername;
+        TextView textViewEmail;
+        TextView textViewPhone;
+        TextView textViewCompany;
+        TextView textViewAddress;
 
         public ViewHolder(View item) {
             super(item);
 
             item.setOnClickListener(this);
             foto=(ImageView)item.findViewById(R.id.Id_foto);
-
+            //textViewName = (TextView) item.findViewById(R.id.id_tv_item_region);
+            //textViewUsername = (TextView) item.findViewById(R.id.id_tv_item_region);
+            //textViewEmail = (TextView) item.findViewById(R.id.id_tv_item_region);
+            //textViewPhone = (TextView) item.findViewById(R.id.id_tv_item_region);
+            //textViewCompany = (TextView) item.findViewById(R.id.id_tv_item_region);
+            //textViewAddress = (TextView) item.findViewById(R.id.id_tv_item_region);
 
         }
 
