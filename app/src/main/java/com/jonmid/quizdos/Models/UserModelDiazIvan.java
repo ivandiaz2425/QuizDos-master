@@ -65,16 +65,16 @@ public class UserModelDiazIvan {
 
     public String getUserArrayDiazIvan() {
         UserArrayDiazIvan = new String[10];
-        UserArrayDiazIvan[0]="https://i.pinimg.com/originals/bb/7e/d4/bb7ed4855b6d0df8305e10247b726cbd.jpg";
-        UserArrayDiazIvan[1]="https://k38.kn3.net/taringa/2/4/3/0/6/6/13/soyluuchoox/A1D.jpg?1843";
-        UserArrayDiazIvan[2]="https://fossbytes.com/wp-content/uploads/2017/01/arch-linux.png";
-        UserArrayDiazIvan[3]="https://i0.wp.com/opensourceforu.com/wp-content/uploads/2016/12/Ubuntu.jpg?resize=750%2C460";
-        UserArrayDiazIvan[4]="https://webalia.com/uploads/contenidos_usrs/391576_electro_house_dance_20100913113111.jpg";
-        UserArrayDiazIvan[5]="http://static2.refinery29.com/bin/entry/dfb/x/424377/electro.jpg";
-        UserArrayDiazIvan[6]="https://pbs.twimg.com/media/CKSwB1nWcAASMLa.jpg:large";
-        UserArrayDiazIvan[7]="http://www.noroeste.com.mx/files/tinymce/CuidarComida_(8)2.JPG";
-        UserArrayDiazIvan[8]="https://professor-falken.com/wp-content/uploads/2016/11/Como-formatear-un-pendrive-o-memoria-USB-desde-el-Terminal-de-Linux-professor-falken.com_.jpg";
-        UserArrayDiazIvan[9]="http://www.bluent.co.in/blog/images/002.jpg";
+        UserArrayDiazIvan[0]="https://ayudawp.com/wp-content/uploads/2014/02/usuario-registrado.jpg";
+        UserArrayDiazIvan[1]="https://image.freepik.com/vector-gratis/usuarios-del-sistema-de-tango_17-329084610.jpg";
+        UserArrayDiazIvan[2]="https://luud94.files.wordpress.com/2013/02/usuarios.png";
+        UserArrayDiazIvan[3]="https://i0.wp.com/helpmybusinesspos.info/wp-content/uploads/2015/02/Usuario-permisos_mybusinesspos-300x200.png?resize=350%2C200";
+        UserArrayDiazIvan[4]="http://3.bp.blogspot.com/-ti-MI9Zl3nM/VWcvaDixo3I/AAAAAAAAAJQ/nI7svyjT5vg/s1600/usuario.png";
+        UserArrayDiazIvan[5]="http://www.iaipanama.org/images/img-demo/usuario-registrados.png";
+        UserArrayDiazIvan[6]="http://www.doctanet.com/images/img_elearning.jpg";
+        UserArrayDiazIvan[7]="https://magazine.joomla.org/media/k2/items/cache/97ff5b5c23c82287559552b36b16e270_XL.jpg";
+        UserArrayDiazIvan[8]="http://www.prograweb.com.mx/tallerBD/images/0301Usuario.jpg";
+        UserArrayDiazIvan[9]="http://www.managementjournal.net/images/stories/perfilesdeusuarios.jpg";
         int numero = (int) (Math.random() * 9);
 
         return UserArrayDiazIvan [numero];
