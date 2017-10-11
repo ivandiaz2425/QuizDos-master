@@ -6,6 +6,7 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.jonmid.quizdos.Fragments.CommentFragment;
@@ -14,6 +15,7 @@ import com.jonmid.quizdos.Fragments.UserFragment;
 public class IndexActivity extends AppCompatActivity {
 
     BottomNavigationView bottomNavigationView;
+    ProgressBar progressBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

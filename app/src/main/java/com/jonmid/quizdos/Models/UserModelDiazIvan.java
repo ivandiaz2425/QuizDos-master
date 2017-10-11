@@ -13,7 +13,7 @@ public class UserModelDiazIvan {
     public String address;
     public String company;
     private  String[] UserArrayDiazIvan;
-    private int id;
+
 
     public String getName() {
         return name;
@@ -61,14 +61,6 @@ public class UserModelDiazIvan {
 
     public void setCompany(String company) {
         this.company = company;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getUserArrayDiazIvan() {

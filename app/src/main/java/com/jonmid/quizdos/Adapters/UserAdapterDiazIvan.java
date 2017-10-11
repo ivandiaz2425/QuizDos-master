@@ -81,12 +81,12 @@ public class UserAdapterDiazIvan extends RecyclerView.Adapter<UserAdapterDiazIva
 
             item.setOnClickListener(this);
             foto=(ImageView)item.findViewById(R.id.Id_foto);
-            //textViewName = (TextView) item.findViewById(R.id.id_tv_item_region);
-            //textViewUsername = (TextView) item.findViewById(R.id.id_tv_item_region);
-            //textViewEmail = (TextView) item.findViewById(R.id.id_tv_item_region);
-            //textViewPhone = (TextView) item.findViewById(R.id.id_tv_item_region);
-            //textViewCompany = (TextView) item.findViewById(R.id.id_tv_item_region);
-            //textViewAddress = (TextView) item.findViewById(R.id.id_tv_item_region);
+            textViewName = (TextView) item.findViewById(R.id.id_tv_userinput_name);
+            textViewUsername = (TextView) item.findViewById(R.id.id_tv_userlabel_username);
+            textViewEmail = (TextView) item.findViewById(R.id.id_tv_userinput_email);
+            textViewPhone = (TextView) item.findViewById(R.id.id_tv_userinput_phone);
+            textViewCompany = (TextView) item.findViewById(R.id.id_tv_userinput_namecompany);
+            textViewAddress = (TextView) item.findViewById(R.id.id_tv_userinput_address);
 
         }
 
